@@ -25,7 +25,7 @@ void loop() {
 
 
   if( digitalRead(7) == LOW )
-     Serial.println("test failed2");
+     Serial.println("test failed");
   else 
       Serial.println("test passed");
 
